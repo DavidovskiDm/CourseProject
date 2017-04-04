@@ -13,7 +13,7 @@ public class MainPage extends BaseForm {
         super(By.xpath("//*[@class='news']//h2[contains(.,'Главные новости')]"),"Main Page");
     }
 
-    private Button btnPrivateOffice = new Button(By.xpath("//*[@id='right_column']//a"), "PrivateOffice");
+    private Button btnPrivateOffice = new Button(By.xpath("//*[@id='right_column']//a"), "btnPrivateOffice");
     private String locatorTopMenu ="//*[@class='t_menu']//a[contains(normalize-space(.),'%s')]";
     private String locatorSubMenu ="//*[@class='header_submenu']//a[.='%s']";
 

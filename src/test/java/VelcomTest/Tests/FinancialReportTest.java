@@ -51,7 +51,7 @@ public class FinancialReportTest extends BaseTest {
         logStep("Select invoice menu");
         PersonalOffice report = new PersonalOffice();
         report.navigateMenu();
-        logStep("Get ti invoice to mail");
+        logStep("Get to invoice to mail");
         report.reportToMail(month, year);
     }
 

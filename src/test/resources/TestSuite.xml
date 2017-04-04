@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Velcom Test" verbose="1">
+	<parameter name="code" value="44"/>
+	<parameter name="numberPhone" value="7545481"/>
+	<parameter name="password" value="112153"/>
+	<parameter name="year" value="2017"/>
+	<parameter name="month" value="Январь"/>
+	<test name="Report Test" preserve-order="true">
+		<classes>
+ 			<class name="VelcomTest.Tests.FinancialReportTest" />
+        </classes>
+	</test>
+	<parameter name="nameShopMenu" value="Интернет-магазин"/>
+	<parameter name="nameItem" value="Телефоны"/>
+	<parameter name="brand" value="Huawei"/>
+	<parameter name="type" value="Смартфон"/>
+	<parameter name="minPrice" value="200"/>
+	<parameter name="maxPrice" value="1000"/>
+	<parameter name="minSize" value="4.5"/>
+	<parameter name="maxSize" value="6"/>
+	<test name="Shop Test" preserve-order="true">
+		<classes>
+			<class name="VelcomTest.Tests.ShopTest" />
+		</classes>
+	</test>
+
+	<parameter name="nameTopMenu" value="Бизнесу"/>
+	<parameter name="nameSubMenu" value="Тарифы"/>
+	<parameter name="tariffGroup" value="Тарифы для смартфонов"/>
+	<parameter name="nameTariff" value="Корпоративный Smart 1"/>
+	<test name="Tariffs Test" preserve-order="true">
+		<classes>
+			<class name="VelcomTest.Tests.TariffsTest" />
+		</classes>
+	</test>
+
+	<parameter name="nameTopMenuTwo" value="Частным клиентам"/>
+	<parameter name="nameSubMenuTwo" value="Помощь и поддержка"/>
+	<parameter name="nameSupportMenu" value="Дилерские салоны"/>
+	<parameter name="dealer" value="ИООО «Связной БЕЛ»"/>
+	<parameter name="town" value="Минск"/>
+	<parameter name="street" value="Независимости"/>
+	<test name="Dealers Test" preserve-order="true">
+		<classes>
+			<class name="VelcomTest.Tests.DealersCenterTest" />
+		</classes>
+	</test>
+
+
+</suite>

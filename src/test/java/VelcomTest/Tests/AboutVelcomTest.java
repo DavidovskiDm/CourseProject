@@ -4,7 +4,6 @@ import VelcomTest.Pages.CareerPage;
 import VelcomTest.Pages.MainPage;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-import webdriver.BaseForm;
 import webdriver.BaseTest;
 
 /**

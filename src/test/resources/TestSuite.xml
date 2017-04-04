@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Velcom Test" verbose="1">
-	<!--<parameter name="code" value="44"/>
+	<parameter name="code" value="44"/>
 	<parameter name="numberPhone" value="7545481"/>
 	<parameter name="password" value="112153"/>
 	<parameter name="year" value="2017"/>
@@ -44,7 +44,7 @@
 		<classes>
 			<class name="VelcomTest.Tests.DealersCenterTest" />
 		</classes>
-	</test>-->
+	</test>
 	<parameter name="aboutcompany" value="О компании"/>
 	<parameter name="work" value="Работа и карьера"/>
 	<parameter name="nameMenuCareer" value="Команда velcom"/>
